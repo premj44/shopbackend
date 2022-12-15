@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const connectDb = require("../config/db");
-const shoppingListModel = require("../models/shoppingList.model.js");
+const connectDb = require("./config/db");
+const shoppingListModel = require("./models/shoppingList.model.js");
 require("dotenv").config();
 
 app.use(cors());
